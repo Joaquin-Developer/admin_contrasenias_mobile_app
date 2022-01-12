@@ -10,7 +10,7 @@ import { DataService } from './services/data.service';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  componentes: Observable<Componente[]>
+  components: Observable<Componente[]>
   
   constructor(
     private menuController: MenuController,
@@ -18,6 +18,7 @@ export class AppComponent {
   ) { }
 
   ngOnInit() {
-    this.componentes = this.dataService.getMenuOptions();
+    this.components = this.dataService.getMenuOptions(); 
   }
+  
 }

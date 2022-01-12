@@ -5,11 +5,6 @@
       "redirectTo": "/action-sheet"
     },
     {
-      "icon": "alert-circle-outline",
-      "name": "Alert",
-      "redirectTo": "/alert"
-    },
-    {
       "icon": "hammer-outline",
       "name": "Input",
       "redirectTo": "/input"
@@ -20,19 +15,9 @@
       "redirectTo": "/list"
     },
     {
-      "icon": "reorder-three-outline",
-      "name": "List reorder",
-      "redirectTo": "/list-reorder"
-    },
-    {
       "icon": "refresh-circle-outline",
       "name": "Loading Page",
       "redirectTo": "/loading"
-    },
-    {
-      "icon": "arrow-down-circle-outline",
-      "name": "Refresher Page",
-      "redirectTo": "/refresher"
     },
     {
       "icon": "search-outline",
@@ -48,10 +33,5 @@
       "icon": "cog-outline",
       "name": "Tabs",
       "redirectTo": "/tabs"
-    },
-    {
-      "icon": "pricetag-outline",
-      "name": "Toast",
-      "redirectTo": "/toast"
     }
   ]

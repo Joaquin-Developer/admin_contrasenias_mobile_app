@@ -19,10 +19,6 @@ const routes: Routes = [
       {
         path: "contact",
         loadChildren: () => import("../input/input.module").then(m => m.InputPageModule)
-      },
-      {
-        path: "settings",
-        loadChildren: () => import("../list-reorder/list-reorder.module").then(m => m.ListReorderPageModule)
       }
     ]
   } 

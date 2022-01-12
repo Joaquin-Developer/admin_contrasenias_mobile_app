@@ -12,10 +12,6 @@ const routes: Routes = [
     loadChildren: () => import('./pages/inicio/inicio.module').then( m => m.InicioPageModule)
   },
   {
-    path: 'alert',
-    loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
-  },
-  {
     path: 'action-sheet',
     loadChildren: () => import('./pages/action-sheet/action-sheet.module').then( m => m.ActionSheetPageModule)
   },
@@ -28,16 +24,8 @@ const routes: Routes = [
     loadChildren: () => import('./pages/list/list.module').then( m => m.ListPageModule)
   },
   {
-    path: 'list-reorder',
-    loadChildren: () => import('./pages/list-reorder/list-reorder.module').then( m => m.ListReorderPageModule)
-  },
-  {
     path: 'loading',
     loadChildren: () => import('./pages/loading/loading.module').then( m => m.LoadingPageModule)
-  },
-  {
-    path: 'refresher',
-    loadChildren: () => import('./pages/refresher/refresher.module').then( m => m.RefresherPageModule)
   },
   {
     path: 'search',
@@ -50,11 +38,7 @@ const routes: Routes = [
   {
     path: 'tabs',
     loadChildren: () => import('./pages/tabs/tabs.module').then( m => m.TabsPageModule)
-  },
-  {
-    path: 'toast',
-    loadChildren: () => import('./pages/toast/toast.module').then( m => m.ToastPageModule)
-  },
+  }
 ];
 
 @NgModule({

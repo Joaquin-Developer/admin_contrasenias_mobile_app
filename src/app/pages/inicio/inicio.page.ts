@@ -11,7 +11,7 @@ import { DataService } from 'src/app/services/data.service';
 })
 export class InicioPage implements OnInit {
 
-  componentes: Observable<Componente[]>
+  components: Observable<Componente[]>
   
   constructor(
     private menuController: MenuController,
@@ -19,7 +19,7 @@ export class InicioPage implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.componentes = this.dataService.getMenuOptions();
+    this.components = this.dataService.getMenuOptions();
   }
 
   showMenu() {
